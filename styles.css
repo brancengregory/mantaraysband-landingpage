@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    margin: 0 0;
+}
+
+h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+h2 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 10pt;
+    color: lightgrey;
+}
+
+h3 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 24pt;
+    color: lightgrey;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+}
+
+#container-base {
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+#container-logo {
+    display: inline-block;
+    max-height: 500px;
+}
+
+#container-dev {
+    display: inline-block;
+}
+
+#container-links {
+    display: inline-block;
+    width: 490px;
+}
+
+#container-music-links {
+    display: inline-block;
+    width: 200px;
+}
+
+#container-new-music {
+    display: inline-block;
+    border-bottom: solid;
+    border-bottom-color: lightgrey;
+}
+
+#container-music-spacer {
+    display: inline-block;
+    width: 100px;
+}
+
+#container-legacy-music {
+    display: inline-block;
+}
+
+#container-link-spacer {
+    display: inline-block;
+    width: 80px;
+}
+
+#container-social-links {
+    display: inline-block;
+    width: 200px;
+    height: 67px;
+}
+
+.material-icons {
+    display: inline-block;
+}
+
+
+#logo {
+    max-height: inherit;
+}
+
+#banner-dev {
+    display: inline-block;
+}
+
+#build-rtl {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+#music-icon-apple {
+    height: 40px;
+    pointer-events: none;
+}
+
+#music-icon-spotify {
+    height: 40px;
+    pointer-events: none;
+}
+
+#music-icon-google {
+    height: 40px;
+    pointer-events: none;
+}
+
+#addendum {
+    padding-left: 18px;
+    text-align: left;
+}
+
+#social-icon-facebook {
+    height: 40px;
+    pointer-events: none;
+}
+
+#social-icon-instagram {
+    height: 40px;
+    pointer-events: none;
+}
+
+#social-icon-twitter {
+    height: 40px;
+    pointer-events: none;
+}
