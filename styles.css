@@ -13,15 +13,8 @@ h1 {
 
 h2 {
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 10pt;
+    font-size: 14pt;
     color: lightgrey;
-}
-
-h3 {
-    font-family: 'Allerta Stencil', sans-serif;
-    font-size: 24pt;
-    color: lightgrey;
-    margin: 0;
 }
 
 a {
@@ -45,12 +38,12 @@ a {
 
 #container-links {
     display: inline-block;
-    width: 490px;
+    width: 700px;
 }
 
 #container-music-links {
     display: inline-block;
-    width: 200px;
+    width: 400px;
 }
 
 #container-new-music {
@@ -115,7 +108,7 @@ a {
 }
 
 #addendum {
-    padding-left: 18px;
+    padding-left: 250px;
     text-align: left;
 }
 
