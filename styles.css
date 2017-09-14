@@ -1,8 +1,11 @@
 html {
+    display: inline-block;
     height: 100%;
+    text-align: center;
 }
 
 body {
+    display: inline-block;
     height: inherit;
     margin: 0 0;
 }
