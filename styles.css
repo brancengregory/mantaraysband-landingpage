@@ -60,9 +60,9 @@ a {
 
 #build-rtl {
     transform: scaleX(-1);
-/*    -moz-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
-    -ms-transform: scaleX(-1);*/
+    -ms-transform: scaleX(-1);
 }
 
 .icon-link, .icon {
