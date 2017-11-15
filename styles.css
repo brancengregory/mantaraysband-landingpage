@@ -1,21 +1,27 @@
+* {
+    max-width: 100%;
+}
+
 html {
     display: inline-block;
-    height: 100%;
     text-align: center;
 }
 
 body {
-    display: inline-block;
-    height: inherit;
     margin: 0 0;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Allerta Stencil', sans-serif;
 }
 
+@media screen and (max-width: 440px) {
+    h1 {
+        font-size: 6.5vw;
+    }
+}
+
 h2 {
-    font-family: 'Allerta Stencil', sans-serif;
     font-size: 14pt;
     color: lightgrey;
 }
@@ -27,105 +33,52 @@ a {
 
 #container-base {
     padding: 10px 0px 0px 0px;
-    text-align: center;
 }
 
 #container-logo {
-    display: inline-block;
     max-height: 500px;
 }
 
-#container-dev {
+#container-links, #container-new-music, #container-legacy-music, #banner-dev {
     display: inline-block;
-}
-
-#container-links {
-    display: inline-block;
-    width: 700px;
-}
-
-#container-music-links {
-    display: inline-block;
-    width: 400px;
 }
 
 #container-new-music {
-    display: inline-block;
     border-bottom: solid;
     border-bottom-color: lightgrey;
 }
-
-#container-music-spacer {
-    display: inline-block;
-    width: 100px;
-}
-
-#container-legacy-music {
-    display: inline-block;
-}
-
-#container-link-spacer {
-    display: inline-block;
-    width: 80px;
-}
-
-#container-social-links {
-    display: inline-block;
-    width: 200px;
-    height: 67px;
-}
-
-.material-icons {
-    display: inline-block;
-}
-
 
 #logo {
     max-height: inherit;
 }
 
-#banner-dev {
-    display: inline-block;
-}
-
 #build-rtl {
     transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
+/*    -moz-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
-    -ms-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);*/
 }
 
-#music-icon-apple {
+.icon-link, .icon {
     height: 40px;
-    pointer-events: none;
+    width: 40px;
 }
 
-#music-icon-spotify {
-    height: 40px;
+.icon {
     pointer-events: none;
 }
 
 #music-icon-google {
+    width: auto;
     height: 40px;
-    pointer-events: none;
+}
+
+#music-icon-google-container {
+    width: auto;
+    height: 40px;
 }
 
 #addendum {
-    padding-left: 250px;
     text-align: left;
-}
-
-#social-icon-facebook {
-    height: 40px;
-    pointer-events: none;
-}
-
-#social-icon-instagram {
-    height: 40px;
-    pointer-events: none;
-}
-
-#social-icon-twitter {
-    height: 40px;
-    pointer-events: none;
+    padding-left: 12%;
 }
